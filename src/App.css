@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Header{
+  background-color: #42A5FF;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+.titre{
+  margin-left: 200px;
+  margin-top: 10px;
+  height: 90px;
+  text-align: center;
+  color: gold;
+}
+
+.spinner{
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.Image {
+  width: 400px;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  position: relative;
+  background-image: url("../upload.png"); 
+}
+
+.Image img {
+  width: inherit;
+  height: inherit;
+}
+
+.Container {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftContainer {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.inputFile {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.centerContainer {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.card {
+  margin: 0;
+  margin-bottom: 20px;
+  margin-left: 90px;
+}
+
+.card-header {
+  text-align: center;
+}
+
+.rightContainer {
+  margin-top: 50px;
+  margin-left: 120px;
+  padding: 50px;
+  border: 5px solid #42A5FF;
+  border-radius: 5%;
+  display: none;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.fileToUpload {
+  border: 2px solid #42A5FF;
+  border-radius: 10%;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.emotion{
+  margin-top: 100px;
+}
+
+.emotionData{
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.emotionData h4{
+  color: #F96C85;
+}
