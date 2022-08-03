@@ -41,6 +41,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The interface is available in this link(https://lianafinaritra-facedetector.netlify.app/).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
